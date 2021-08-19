@@ -8,6 +8,7 @@ namespace Odevler.Controllers
 {
     public class UygulamaController : Controller
     {
+        Random rnd = new Random();
         public IActionResult Index()
         {
             List<string> dizi = new() { "Ankara","Izmir", "Ïstanbul","Bursa" };
@@ -33,6 +34,15 @@ namespace Odevler.Controllers
         }
 
        
+
+
+        [Route("gorev/foto")]
+        public IActionResult Foto()
+        {
+            string adres = "~img/" + rnd.Next(1,4).ToString() + ".jpg";
+            return File(adres,"image/jpeg");
+        }
+        
         
 
 
