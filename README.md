@@ -1,3 +1,6 @@
+```diff
++ yapildi
+``` 
 1. Aldığı id route değerine göre arama motoruna yönlenen action'ını yazın. Örneğin;
 
 
@@ -7,14 +10,18 @@ gorev/arama/yandex => yandex.com.tr gibi
 
 eğer olmayan bir arama motoru girerse default google'a yönlensin.
 
-
+```diff
++ yapildi
+``` 
 2. Rastgele resim döndüren action
 gorev/resim => wwwroot/images içinde yer alan resimlerden birini rastgele döndürebilir.
 
 
 ipucu: resimlerin adlarını 1.png, 2.png şeklinde verip random sınıfını kullanabilirsiniz.
 
-
+```diff
++ yapildi
+``` 
 3. Verdiğiniz string koleksiyonunu aşağıdaki bootstrap listesine çeviren tag helper'ı oluşturup kullanın.
 
 
@@ -43,10 +50,14 @@ Ancak kod kalabalığını önlemek adına bunu bir partial view içinde oluştu
 Not: Örnek resimler için https://picsum.photos/ adresini kullanabilirsiniz.
 
 
-
+```diff
+- Yapımadı
+``` 
 5. gorev/rastgele adresine girildiğinde rastgele 6 sayıyı json formatında döndürsün.
 
-
+```diff
++ yapildi
+``` 
 6. [EXTRA] 
 gorev/kirp/orman.jpg?genislik=500&yukseklik=400
 adresine girildiğinde wwwroot/images/orman.jpg dosyasını belirtilen boyutlarda kırparak resim dosyası olarak döndürsün.
