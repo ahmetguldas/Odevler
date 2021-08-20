@@ -1,4 +1,4 @@
-# 1. Aldığı id route değerine göre arama motoruna yönlenen action'ını yazın. Örneğin;
+1. Aldığı id route değerine göre arama motoruna yönlenen action'ını yazın. Örneğin;
 
 
 gorev/arama/google => google.com
@@ -31,7 +31,7 @@ ipucu: resimlerin adlarını 1.png, 2.png şeklinde verip random sınıfını ku
 
 not: element mümkünse kendini kapatan tag'dan oluşsun.
 
-
+```diff
 - Yapımadı 4. Anasayfanızın vitrinine bir slide show koymak istiyorsunuz. Burada sitenizle ilgili bazı görseller dönecektir. Bunun için https://getbootstrap.com/docs/5.1/components/carousel/#with-captions adresindeki carousel'i kullanabilirsiniz.
 
 
@@ -39,6 +39,7 @@ Ancak kod kalabalığını önlemek adına bunu bir partial view içinde oluştu
 
 
 Not: Örnek resimler için https://picsum.photos/ adresini kullanabilirsiniz.
+```
 
 
 5. gorev/rastgele adresine girildiğinde rastgele 6 sayıyı json formatında döndürsün.
