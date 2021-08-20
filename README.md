@@ -39,7 +39,7 @@ ipucu: resimlerin adlarını 1.png, 2.png şeklinde verip random sınıfını ku
 not: element mümkünse kendini kapatan tag'dan oluşsun.
 
 ```diff
-- Yapımadı
+- Yapılmadı
 ``` 
 4. Anasayfanızın vitrinine bir slide show koymak istiyorsunuz. Burada sitenizle ilgili bazı görseller dönecektir. Bunun için https://getbootstrap.com/docs/5.1/components/carousel/#with-captions adresindeki carousel'i kullanabilirsiniz.
 
@@ -56,7 +56,7 @@ Not: Örnek resimler için https://picsum.photos/ adresini kullanabilirsiniz.
 5. gorev/rastgele adresine girildiğinde rastgele 6 sayıyı json formatında döndürsün.
 
 ```diff
-+ yapildi
++ sadece picsum sitesine foto/500/500 olarak gonderip yonlendirme islemi yapildi
 ``` 
 6. [EXTRA] 
 gorev/kirp/orman.jpg?genislik=500&yukseklik=400
