@@ -57,7 +57,10 @@ Not: Örnek resimler için https://picsum.photos/ adresini kullanabilirsiniz.
 
 ```diff
 + sadece picsum sitesine foto/500/500 olarak gonderip yonlendirme islemi yapildi
++ magick kutuphanesi ve custom route handler delegate i kullanilarak resim boyutlandirma islemi yapildi.
+
 ``` 
 6. [EXTRA] 
+https://localhost:44307/image/2.jpg?w=100&h=100   magick kutuphanesi kullanilarak resim boyutlandirma linkine erisim
 gorev/kirp/orman.jpg?genislik=500&yukseklik=400
 adresine girildiğinde wwwroot/images/orman.jpg dosyasını belirtilen boyutlarda kırparak resim dosyası olarak döndürsün.
